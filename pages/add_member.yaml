@@ -1,0 +1,10 @@
+- locator: //*[@resource-id='com.tencent.wework:id/ays']
+  action: find_send_keys
+  content: aaa10
+
+- locator: //*[@resource-id='com.tencent.wework:id/f4m']
+  action: find_send_keys
+  content: 12341234010
+
+- locator: //*[@resource-id='com.tencent.wework:id/ac9']
+  action: find_click
