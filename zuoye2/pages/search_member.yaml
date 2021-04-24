@@ -1,0 +1,8 @@
+search_member:
+  - locator: //*[@text='搜索']
+    action: find_send_keys
+    content: ${name}
+
+choose_member:
+  - locator: //*[@text='${department}']
+    action: find_click

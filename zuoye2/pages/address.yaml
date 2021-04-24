@@ -1,0 +1,7 @@
+goto_add_member_option_page:
+  - locator: 添加成员
+    action: swip_click
+
+goto_search:
+  - locator: //*[@resource-id="com.tencent.wework:id/h8q"]
+    action: find_click

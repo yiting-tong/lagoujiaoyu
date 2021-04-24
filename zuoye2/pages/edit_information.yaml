@@ -1,0 +1,6 @@
+delet_member:
+  - locator: 删除成员
+    action: swip_click
+delete_confirm:
+  - locator: //*[@text="确定"]
+    action: find_click
